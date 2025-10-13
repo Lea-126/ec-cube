@@ -35,8 +35,8 @@ services:
       # EC-CUBE environments
       APP_ENV: "dev"
       APP_DEBUG: 1
-      DATABASE_URL: "sqlite:///var/eccube.db"
-      DATABASE_SERVER_VERSION: 3
+      DATABASE_URL: "mysql://dbuser:secret@mysql/eccubedb"
+      DATABASE_SERVER_VERSION: 8.0
       DATABASE_CHARSET: 'utf8'
       MAILER_DSN: "smtp://mailcatcher:1025"
       ECCUBE_AUTH_MAGIC: "<change.me>"
