@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "yearly"
     allow:
       - dependency-type: "all"
     ignore:
@@ -20,13 +20,13 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "yearly"
 
   # npm の依存関係を維持する
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "yearly"
     allow:
       - dependency-type: "all"
     ignore:
